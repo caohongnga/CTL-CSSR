@@ -6,7 +6,7 @@ We implement Cyclic Transfer Learning (CTL) on SEAME Mandarin-English Code-switc
 
 The figure below shows CTL approach.
 <p align="center">
-  <img width="800" alt="fig_method" src="https://github.com/vdquang1991/selective_mutual_learning/blob/main/sml.png">
+  <img width="800" alt="fig_method" src="https://github.com/caohongnga/CTL-CSSR/blob/main/CTL.png">
 </p>
 
 
