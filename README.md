@@ -13,6 +13,7 @@ The figure below shows CTL approach.
 ## Running the code
 We use ESPnet, a speech processing toolkit (https://github.com/espnet/espnet) for our experiment.
 
+You can download the model at https://drive.google.com/drive/folders/1LGcoLITArM3DeGnEnwMB913G14Vi6v_c?usp=sharing.
 ## The code details
 In this code, you can infer your testing sets or re-run CTL method. The code includes:
 - Configuration for acoustic model: conf/train_asr_transformer.yaml
