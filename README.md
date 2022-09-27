@@ -15,17 +15,15 @@ We use ESPnet, a speech processing toolkit (https://github.com/espnet/espnet) fo
 
 You can download the model at https://drive.google.com/drive/folders/1LGcoLITArM3DeGnEnwMB913G14Vi6v_c?usp=sharing.
 ## The code details
-In this code, you can infer your testing sets or re-run CTL method. The code includes:
+In this code, you can infer your testing sets or re-run CTL method as in the submitted paper. The code includes:
 - Configuration for acoustic model: conf/train_asr_transformer.yaml
 - Configuration for language model: conf/train_lm_transformer.yaml
 - File to run the model: asr_ctl.sh
 - Bye Pair Encoding (BPE) for target model: data/cs_token_list/bpe_unigram4004/bpe.model
 - Languge model file for inference: exp/lm_transformer/valid.acc.ave.pth
 - Acoustic model file for inference: exp/asr_target_cycle4/valid.acc.ave.pth and exp/asr_target_cycle4/config.yaml
-In this code, you can reproduce the experimental results of the speech separation task in the submitted paper.
 - The number of BPEs for the multilingual automatic speech recognition task (ML-ASR task) and the target task (CSSR) are 5000, 4004, respectively.
-
-- We fine-tune our model by changing the number of BPE tokens of the ML-ASR task to 5503 at the iteration 3. The MER for all test set (dev_man+ dev_sge) is 17.8%, respectively. The model is at exp/asr_fine_tuning/valid.acc.ave.pth.
+- We fine-tune our model by changing the number of BPE tokens of the ML-ASR task to 5503 at the iteration 3. The MER for all test set (dev_man+ dev_sge) is 17.8%, respectively. The model is at exp/asr_fine_tuning/valid.acc.ave.pth. 
 ### Training
 - Training Language Model
 The configuration for language model is at
