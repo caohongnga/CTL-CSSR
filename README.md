@@ -2,7 +2,7 @@
 
 By Cao Hong Nga, Duc-Quang Vu, Huong Hoang Luong, Chien-Lin Huang, Jia-Ching Wang,
 ## Overview
-We implement Cyclic Transfer Learning (CTL) on SEAME Mandarin-English Code-switching Speech Corpus that is available at https://catalog.ldc.upenn.edu/LDC2015S04
+We implement Cyclic Transfer Learning (CTL) on SEAME Mandarin-English Code-switching Speech Corpus. Our code is available at https://github.com/caohongnga/CTL-CSSR.
 
 The figure below shows CTL approach.
 <p align="center">
