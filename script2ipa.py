@@ -4,7 +4,7 @@ from pypinyin import pinyin
 import eng_to_ipa as ipa
 import nltk
 
-parser = argparse.ArgumentParser(description='IMDA Data Processing')
+parser = argparse.ArgumentParser(description='Mandarin-English transcription to IPA')
 parser.add_argument("--input_file", default="./SEAME/train_set/text", type=str, help="Path to transcription file")
 parser.add_argument("--output_file", default="./SEAME/train_set/text_ipa", type=str, help="Path to conversion result file")
 parser.add_argument("--mapping_file", default="./pinyin2ipa.csv", type=str, help="Path to pinyin to IPA mapping file")
